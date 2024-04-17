@@ -1,0 +1,1198 @@
+*{
+    padding: 0%;
+    margin: 0%;
+    box-sizing: border-box;
+}
+
+
+#nav{
+    /* border: 2px solid; */
+    height: 80px;
+    width: 100%;
+    position: fixed;  
+    background-color: #ffffff;
+    /* position: sticky; */
+     z-index:500; 
+    /* background-color: #e6ecf2; */
+    cursor: pointer;
+   
+}
+#subnav{
+    
+    /* border:2px solid red; */
+    height: inherit;
+    width:57%;
+    /* background-color: #e6ecf2; */
+}
+#subnav ol {
+    list-style: none;
+    display: flex;
+    justify-content: space-evenly;
+    /* justify-content: center; */
+       padding-top: 25px; 
+    font-size: 18px;
+    font-weight: 500;
+    /* align-items: center; */
+    
+}
+.aa:hover{
+    border: 2px solid blue;
+    height: 35px;
+    border-radius: 7px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.aa a{
+  text-decoration: none;
+  color: black;
+}
+#subnav2{
+    /* border: 2px solid red; */
+    width: 25%;
+    position: absolute;
+    top: 8px;
+    right: 20px;
+}
+.button-9{
+  appearance: button;
+  backface-visibility: hidden;
+  background-color: #405cf5;
+  border-radius: 6px;
+  border-width: 0;
+  box-shadow: rgba(50, 50, 93, .1) 0 0 0 1px inset,rgba(50, 50, 93, .1) 0 2px 5px 0,rgba(0, 0, 0, .07) 0 1px 1px 0;
+  box-sizing: border-box;
+  color: #fff;
+  cursor: pointer;
+  font-family: -apple-system,system-ui,"Segoe UI",Roboto,"Helvetica Neue",Ubuntu,sans-serif;
+  font-size: 100%;
+  height: 35px;
+  line-height: 1.15;
+  margin: 12px 0 0;
+  outline: none;
+  overflow: hidden;
+  padding: 0 25px;
+  position: relative;
+  /* text-align: center; */
+  text-transform: none;
+  transform: translateZ(0);
+  transition: all .2s,box-shadow .08s ease-in;
+  user-select: none;
+  -webkit-user-select: none;
+  touch-action: manipulation;
+  width: 100%;
+  bottom: 20px;
+}
+
+.button-9:disabled {
+  cursor: default;
+}
+
+.button-9:focus {
+  box-shadow: rgba(50, 50, 93, .1) 0 0 0 1px inset, rgba(50, 50, 93, .2) 0 6px 15px 0, rgba(0, 0, 0, .1) 0 2px 2px 0, rgba(50, 151, 211, .3) 0 0 0 4px;
+}
+.bb:hover{
+  border: 2px solid blue;
+  height: 30px;
+  border-radius: 7px;
+}
+.bb a{
+  color:black;
+  text-decoration: none;
+}
+.button-9 a{
+  color:white;
+  text-decoration: none;
+}
+#nav3{
+  /* border: 2px solid red; */
+  height: 120vh;
+  overflow: hidden;
+  /* position: absolute; */
+  bottom: 80px;
+  background-color: #071457;
+  /* overflow-y: hidden; */
+}
+#content {
+  /* border: 2px solid red; */
+  height: 400px;
+  width: 100%;
+  position: absolute;
+  top: 150px;
+}
+#subnav3{
+  margin: auto;
+  /* border: 3px solid green; */
+  height: inherit;
+  width: 50%;
+}
+#subnav3 h1{
+  color: #fff;
+  font-weight: 700;
+  font-size: 50px;
+  text-align: center;
+}
+#subnav3 p{
+  color: #fff;
+  font-size: 18px;
+  text-align: center  ;
+}
+#mm ol{
+  /* border: 2px solid brown; */
+  margin: auto;
+  width: 65%;
+  height: 50px;
+  display:flex;
+  justify-content: space-between;
+  list-style: none;
+
+}
+#mm ol li button{
+  width: 180px;
+  height: 40px;
+  font-size: 18px;
+  font-weight: 700;
+  border-radius: 10px;
+  
+}
+#nn{
+  background-color: #32e6e2;
+  border: 1px solid black;
+  
+}
+#nn a{
+  text-decoration: none;
+  color: black;
+}
+#nn:hover{
+  background-color: #95fcfa;
+}
+#vv{
+  background-color: transparent;
+  color: #fff;
+  border: 1px solid white;
+}
+#nav4{
+  height:93em;
+  /* border: 2px solid red; */
+}
+#subnav4{
+  border: 1px solid white; 
+  margin: auto;
+  width: 50%;
+  height: 400px;
+  position: absolute;
+  top: 520px;
+  left: 390px;
+  border-radius: 10px;
+  overflow: hidden;
+
+}
+#img3{
+/* border: 2px solid red;  */
+height: 70px;
+width: 70px;
+position: absolute;
+top: 170px;
+left: 280px;
+background-color: #fff;
+display: flex;
+align-items: center;
+justify-content: center;
+border-radius: 50px;
+
+}
+#content2{
+  /* border: 2px solid blue; */
+  /* margin: auto; */
+  width: 100%;
+  height: 300px;
+  position: absolute;
+  top: 940px;
+}
+#content2 h1{
+  text-align: center;
+  font-weight: 600;
+  font-size: 45px;
+}
+#content2 p{
+  text-align: center;
+  font-size: 18px;
+}
+#content2 button{
+height: 40px;
+width: 180px;
+position: absolute;
+left: 650px;
+background-color: #2e51ed;
+color: #f6f6f7;
+font-size: 20px;
+border: none;
+border-radius: 6px;
+font-weight: 700;
+}
+#subnav5{
+  /* border: 2px solid green; */
+  position: absolute;
+  width: 100%;
+  top: 76em;
+  
+}
+#subnav5 ol{
+  display: flex;
+   width: 40%; 
+  height: 50px;
+  justify-content: space-between; 
+  /* align-items: center; */
+  /* justify-content: center; */
+  list-style: none;
+  margin: auto;
+}
+ #subnav5 ol li{
+  width: 60px;
+  display: flex;
+  /* justify-content: space-between; */
+  align-items: center;
+  justify-content: center;
+  font-size: 30px;
+  font-weight: 600;
+  color: #112caf;
+} 
+#nav6{
+  width: 100%;
+  height: 620px;
+  /* border: 2px solid blue; */
+  position: absolute;
+  top: 82em;
+}
+#subnav6{
+  border: 15px solid #defffe;
+  background-color: #defffe;
+  height: inherit;
+  margin: auto;
+  width: 95%;
+  border-radius: 50px;
+  display: flex;
+  justify-content: space-between;
+}
+.sub6{
+  background-color: #fff;
+  padding: 20px;
+  /* border: 2px solid blue; */
+  border-radius: 30px;
+  /* display: flex; */
+  height:590px;
+  width: 380px;
+
+}
+.sub6 h5{
+  font-size: 13px;
+}
+.sub6 h3{
+  font-size: 30px;
+}
+.p{
+  font-size: 17px;
+}
+.pp{
+  font-size: 15px;
+}
+.sub6 a{
+  color: black;
+  font-size: 20px;
+}
+.sub6 a svg{
+  color: #05bdba;
+}
+#content3{
+  /* border: 2px solid blue; */
+  position: absolute;
+  top:125em;
+  left: 480px;
+}
+#content3 h1{
+  font-weight: 600;
+  font-size: 50px;
+}
+#nav7{
+  position: absolute;
+  top: 134em;
+  /* border: 2px solid blue; */
+  width: 100%;
+  height: 100px;
+}
+#subnav7{
+  /* border: 2px solid pink; */
+  height: inherit;
+  margin: auto;
+  width: 85%;
+}
+#subnav7 ol{
+  list-style: none;
+  display: flex;
+  justify-content: space-between;
+}
+#subnav7 ol li img{
+  height: 100px;
+  width: 150px;
+}
+#nav8{
+  /* border: 2px solid red; */
+  height: 300px;
+  background-color: #0a259a;
+}
+#nav9{
+  /* border: 2px solid red; */
+  height: 80em;
+  background-color:#e6ecf2;
+}
+#subnav9{
+  /* border: 2px solid green; */
+  height: 500px;
+  margin: auto;
+  width: 88%;
+  position: absolute;
+  top: 145em;
+  left:78px;
+  background-color: #ffffff;
+  border-radius: 20px;
+}
+#sub9{
+  /* border: 2px solid red; */
+  height:10px;
+  width: 35%;
+  /* display: flex;
+  position: absolute;
+  left: 80px; */
+  /* height: 10px; */
+}
+#sub9 #green{
+  list-style: none; 
+  display: flex;
+  justify-content: space-around;
+}
+#zz{
+  padding-top: 100px;
+}
+#zz p{
+  padding: 50px;
+  font-size: 25px;
+  /* font-weight: 500; */
+}
+#yy{
+  font-size:25px;
+  font-weight: 600;
+}
+#lastimage{
+  margin-left: 50px;
+  /* border: 2px solid red; */
+  height: 100px;
+  width: 100px;
+  border-radius: 100px;
+  overflow: hidden;
+}
+#content5 h4{
+  position: absolute;
+  left: 170px;
+  bottom: 120px;
+}
+#content5 p{
+  position: absolute;
+  left: 120px;
+  bottom: 30px;
+  font-size: 15px;
+}
+#content6{
+  /* border: 2px solid green; */
+  position: absolute;
+  top: 181em;
+  left: 520px;
+}
+#content6 h2{
+  /* font-weight: 600; */
+  font-size: 50px;
+}
+#content6  button{
+  height: 45px;
+  margin-left: 130px;
+  width: 180px;
+  font-size:20px;
+  border-radius: 10px;
+  border: none;
+  background-color: #2e51ed;
+  color: #ffffff;
+  
+}
+#nav10{
+  /* border: 2px solid green; */
+  height: 100px;
+  position: absolute;
+  width: 100%;
+  top: 192em;
+}
+#subnav10{
+  /* border: 2px solid red; */
+  height: inherit;
+  width: 96%;
+  margin: auto;
+}
+#blue{
+  /* border: 2px solid green; */
+  list-style: none;
+  display: flex;
+  height: inherit;
+  justify-content: space-between;
+  align-items: center;
+}
+#blue #pink{
+  height: inherit;
+  display: flex;
+  /* justify-content: center; */
+  align-items: center;
+}
+#pink .logo[data-astro-cid-3ynf2cxt]{
+  /* border: 2px solid blue; */
+  width: clamp(40px,8vw,50px);
+  height: auto;
+  display: inline-block;
+  fill:#05BDBA;
+
+}
+#pink .text[data-astro-cid-3ynf2cxt]{
+  fill: #014847;
+}
+#red{
+  /* border: 2px solid blanchedalmond; */
+  height: inherit;
+  width: 20%;
+  display: flex;
+  justify-content: space-between;
+  /* align-items: center; */
+}
+#yellow{
+  height: inherit;
+  list-style: none;
+  display: flex;
+  justify-content: space-between;
+}
+#red #yellow{
+  height: inherit;
+  width: 90%;
+  display: flex;
+  align-items: center;
+  /* justify-content: center; */
+  justify-content: space-between;
+}
+#nav11{
+  /* border: 2px solid brown; */
+  height: 350px;
+  width: 100%;
+  position: absolute;
+  top: 200em;
+}
+#subnav11{
+  /* border: 2px solid blue; */
+  height: inherit;
+  margin: auto;
+  width: 80%;
+  display: flex;
+  justify-content: space-between;
+}
+.sub11{
+  /* border: 2px solid green; */
+  height: inherit;
+  width: 180px;
+}
+.sub11 a{
+  text-decoration: none;
+  font-size:14px;
+  color: black;
+}
+.sub11 a:hover{
+  text-decoration: underline;
+  text-decoration-thickness: 1px;
+
+}
+#nav12{
+  /* border: 2px solid green; */
+  height: 200px;
+  width: 100%;
+  position: absolute;
+  top: 230em;
+}
+#subnav12{
+  margin-left: 500px;
+}
+#subnav12 p{
+  font-size: 20px;
+}
+#subnav12 input{
+  height: 40px;
+  width: 300px;
+  border-radius: 6px;
+  border: 1px solid black;
+  
+}
+#subnav12 button{
+  height: 40px;
+  width: 100px;
+  background-color: #32e6e2;
+  border-radius: 6px;
+  border: none;
+  cursor: pointer;
+}
+#sub12{
+  width: 40%;
+  /* border: 2px solid red; */
+  /* height: 50px; */
+  margin-top: -50px;
+}
+#sub12 a{
+  font-size: 14px;
+}
+#sub12 ol{
+  display: flex;
+  list-style: none;
+  justify-content: space-evenly;
+}
+#sub12 ol li{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin-top: 70px;
+}
+#sub12 ol li a{
+  color: black;
+  
+}
+#sub12 ol li a:link{
+  text-decoration: none;
+}
+#sub12 ol li a:hover{
+  text-decoration: underline;
+}
+#nav13{
+  position: absolute;
+  top: 239em;
+  right:40px;
+}
+
+
+
+
+#platformside{
+  border: 2px solid;
+  height: 400px;
+  width: 750px;
+  border-radius: 40px;
+  /* margin-bottom: 1000px; */
+   position: absolute;
+ top: 90px;
+  left: 150px;
+  display: none; 
+}
+#platform1{
+display: flex;
+align-items: center;
+justify-content: space-between;
+}
+
+#plat1{
+  /* border: 2px solid; */
+  height: 320px;
+  width: 50%;
+  background-color: whitesmoke;
+  
+}
+
+#net{
+  /* border: 2px solid; */
+  width: 350px;
+  height: 280px;
+  margin: auto;
+  margin-top: 20px;
+}
+#net h6{
+  font-size: 16px;
+  font-weight: lighter;
+  color: rgb(79, 78, 78);
+}
+#net ol{
+  list-style: none;
+  
+
+
+}
+#net ol li a{
+  color: black;
+}
+#net ol li a:hover{
+  text-decoration: none;
+}
+#plat2{
+  /* border: 2px solid; */
+  height: 320px;
+  width: 50%;
+  background-color: #ffffff;
+}
+#platform2{
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  }
+   #plat3{
+    /* border: 2px solid; */
+    height: 70px;
+    width: 50%;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    color: black;
+    background-color: #ffffff;
+  }
+  
+  
+  
+  #plat4{
+    /* border: 2px solid; */
+    height: 70px;
+    width: 50%;
+    background-color: #ffffff;
+  } 
+  #net2{
+    /* border: 2px solid; */
+    width: 300px;
+    height: 280px;
+    margin: auto;
+    margin-top: 20px;
+   
+  }
+
+  #team {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+  }
+#team ol{
+  list-style: none;
+}
+#team ol li a{
+  color: black;
+}
+#team ol li a:hover{
+  text-decoration: none;
+}
+  #net2 h6{
+    font-size: 16px;
+    font-weight: lighter;
+    color: rgb(79, 78, 78);
+  }
+
+
+
+
+  #platformside2{
+    /* border: 2px solid; */
+    height: 300px;
+    width: 500px;
+    /* border-radius: 20px; */
+    /* display: flex;
+    align-items: center;
+    justify-content: space-between; */
+    background-color: white;
+
+    /* margin-bottom: 1000px; */
+     position: absolute;
+     top: 90px;
+    left: 250px;
+    display: none; 
+  }
+
+  #netlifying{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+  }
+  #sol1{
+    /* border: 2px solid; */
+    width: 50%;
+    height: 300px;
+    padding-left: 20px;
+    padding-top: 10px;
+    background-color: whitesmoke; 
+  }
+
+  #sol2{
+    /* border-bottom: 1px solid; */
+    /* border-color: gray; */
+    width: 50%;
+    /* height: 200px; */
+    /* margin-top: -50px; */
+    padding-left: 18px;
+    background-color: white;
+  }
+  #solu2{
+    border-bottom: 1px solid;
+    border-color: gray;
+    height: 200px;
+   
+  }
+
+  #sol1 h6{
+    font-size: 16px;
+    font-weight: lighter;
+    color: rgb(79, 78, 78);
+  }
+
+  #sol1 ol{
+    list-style: none;
+    
+  }
+  #sol1 ol li a{
+    color: black;
+  }
+  #sol1 ol li a:hover{
+    text-decoration: none;
+  }
+  #sol2 h6{
+    font-size: 16px;
+    font-weight: lighter;
+    color: rgb(79, 78, 78);
+  }
+  #sol2 ol{
+    list-style: none;
+
+  }
+  #sol2 ol li a{
+    color: black;
+  }
+  #sol2 ol li a:hover{
+    text-decoration: none;
+  }
+
+
+  #dont h6{
+    font-size: 13px;
+    font-weight: lighter;
+    color: rgb(55, 54, 54);
+    padding-top: 15px;
+  }
+
+  #dont h5{
+    font-weight: lighter;
+
+  }
+  #solu{
+    font-weight: bold;
+  }
+
+  #dont a{
+    color: black;
+  }
+
+  #dont a:hover{
+    text-decoration: none;
+  }
+
+
+
+
+
+  #platformside3{
+    /* border: 2px solid; */
+    height: 300px;
+    width: 550px;
+    
+    position: absolute;
+     top: 80px;
+    left: 500px;
+    display: none; 
+    z-index: 999;
+  }
+#plating{
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+  #start{
+    /* border: 2px solid; */
+    width: 250px;
+    height: 300px;
+    background-color: whitesmoke;
+    padding-left: 10px;
+    padding-top: 10px;
+
+  }
+  #start h6{
+    font-size: 16px;
+    font-weight: lighter;
+    color: rgb(79, 78, 78);
+  }
+#start ol{
+  list-style: none;
+}
+#start ol li a{
+  color: black;
+  
+}
+#start ol li a:hover{
+  text-decoration: none;
+}
+
+
+  #kickstart{
+/* border: 2px solid; */
+    width: 350px;
+    height: 300px;
+    background-color: white;
+    padding-left: 10px;
+    padding-top: 10px;
+  }
+  #kickstart h6{
+    font-size: 16px;
+    font-weight: lighter;
+    color: rgb(79, 78, 78);
+  }
+
+  #list{
+    /* border: 2px solid; */
+    width: 250px;
+ 
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+  }
+  #list ol{
+    list-style: none;
+  }
+  #list ol li a{
+    color: black;
+  }
+  #list ol li a:hover{
+    text-decoration: none;
+  }
+
+
+
+
+
+  /* login page */
+
+
+  /* netlify2---css */
+
+  #nav1{
+/* border: 2px solid; */
+width: 100%;
+height: 60px;
+  }
+
+  #nav2{
+    /* border: 2px solid; */
+    width: 90%;
+    margin: auto;
+    height: inherit;
+
+  }
+  #nav2 svg{
+    padding-top: 10px;
+  }
+
+
+
+  #part1{
+    /* border: 2px solid; */
+    width: 500px;
+    margin: auto;
+    height: 350px;
+    margin-top: 20px;
+  }
+  #part1 h1{
+    padding-left: 200px;
+    font-size: 30px;
+    font-weight: 500;
+    font-family:"system-ui, -apple-system, BlinkMacSystemFont, Segoe UI, Roboto, Helvetica, Arial, sans-serif, Apple Color Emoji, Segoe UI Emoji, Segoe UI Symbol";
+    font-feature-settings: normal;
+    font-variation-settings: normal;
+  }
+
+  #github{
+    border: 1px solid;
+    width: 300px;
+    height: 50px;
+    border-radius: 10px;
+   margin: auto;
+   margin-top: 40px;
+   padding-left: 100px;
+   padding-top: 10px;
+   display: flex;
+    align-items: center;
+    justify-content: space-around;
+
+
+  }
+
+  #github:hover{
+    background-color: black;
+    color: white;
+  }
+  #github a:hover{
+    color: white;
+  }
+  #github a{
+    text-decoration: none;
+    font-size: 20px;
+    color: black;
+    font-family: "system-ui, -apple-system, BlinkMacSystemFont, Segoe UI, Roboto, Helvetica, Arial, sans-serif, Apple Color Emoji, Segoe UI Emoji, Segoe UI Symbol";
+    font-feature-settings: normal;
+    font-variation-settings: normal;
+    
+    
+  }
+  #github div svg{
+    height: 30px;
+    width: 30px;
+    
+  }
+  #hub{
+    /* border: 2px solid; */
+    width: 220px;
+    display:flex;
+    justify-content: space-between;
+    align-items: center;
+    position: absolute;
+    left: 570px;
+   
+  }
+
+
+
+  #gitlab{
+    border: 1px solid;
+    width: 300px;
+    height: 50px;
+    border-radius: 10px;
+   margin: auto;
+   margin-top: 40px;
+   padding-left: 100px;
+   padding-top: 10px;
+
+
+  }
+  #gitlab:hover{
+    background-color: black;
+    color: white;
+  }
+  #gitlab a:hover{
+    color: white;
+  }
+  #gitlab a{
+    text-decoration: none;
+    font-size: 20px;
+    color: black;
+    font-family: "system-ui, -apple-system, BlinkMacSystemFont, Segoe UI, Roboto, Helvetica, Arial, sans-serif, Apple Color Emoji, Segoe UI Emoji, Segoe UI Symbol";
+    font-feature-settings: normal;
+    font-variation-settings: normal;
+  }
+  #gitlab div svg{
+    height: 30px;
+    width: 30px;
+    
+  }
+
+  #lab{
+   
+      /* border: 2px solid; */
+      width: 220px;
+      display:flex;
+      justify-content: space-between;
+      align-items: center;
+      position: absolute;
+      left: 570px;
+     
+   
+  }
+  #bilbucket{
+    border: 1px solid;
+    width: 300px;
+    height: 50px;
+    border-radius: 10px;
+   margin: auto;
+   margin-top: 40px;
+   padding-left: 100px;
+   padding-top: 10px;
+
+
+  }
+  #bilbucket:hover{
+    background-color: black;
+    color: white;
+  }
+  #bilbucket a:hover{
+    color: white;
+  }
+  #bilbucket a{
+    text-decoration: none;
+    font-size: 20px;
+    color: black;
+    font-family: "system-ui, -apple-system, BlinkMacSystemFont, Segoe UI, Roboto, Helvetica, Arial, sans-serif, Apple Color Emoji, Segoe UI Emoji, Segoe UI Symbol";
+    font-feature-settings: normal;
+    font-variation-settings: normal;
+  }
+
+  #bilbucket div svg{
+    height: 30px;
+    width: 30px;
+    
+  }
+  #bil{
+    /* border: 2px solid; */
+    width: 220px;
+    display:flex;
+    justify-content: space-between;
+    align-items: center;
+    position: absolute;
+    left: 570px;
+   
+  }
+
+  #part2{
+    /* border :2px solid; */
+    height: 300px;
+    width: 500px;
+    margin: auto;
+   
+    
+  }
+
+  #sso a{
+    padding-left:170px ;
+    color: green;
+    font-size: 14px;
+    font-weight: 600;
+    font-family: "system-ui, -apple-system, BlinkMacSystemFont, Segoe UI, Roboto, Helvetica, Arial, sans-serif, Apple Color Emoji, Segoe UI Emoji, Segoe UI Symbol";
+  
+  }
+
+  #email a{
+    padding-left:200px ;
+    color: green;
+    font-size: 14px;
+    font-weight: 600;
+    font-family: "system-ui, -apple-system, BlinkMacSystemFont, Segoe UI, Roboto, Helvetica, Arial, sans-serif, Apple Color Emoji, Segoe UI Emoji, Segoe UI Symbol";
+  
+  }
+
+  #with a{
+    padding-left:200px ;
+    color: green;
+    font-size: 14px;
+    font-weight: 600;
+    font-family: "system-ui, -apple-system, BlinkMacSystemFont, Segoe UI, Roboto, Helvetica, Arial, sans-serif, Apple Color Emoji, Segoe UI Emoji, Segoe UI Symbol";
+  
+  }
+
+  #agree{
+    padding-left: 100px;
+    /* padding-top: 30px; */
+    font-size: 15px;
+    color: gray;
+    font-family: "system-ui, -apple-system, BlinkMacSystemFont, Segoe UI, Roboto, Helvetica, Arial, sans-serif, Apple Color Emoji, Segoe UI Emoji, Segoe UI Symbol";
+  
+  }
+  #agree a{
+    font-size: 15px;
+    color: gray;
+    font-family: "system-ui, -apple-system, BlinkMacSystemFont, Segoe UI, Roboto, Helvetica, Arial, sans-serif, Apple Color Emoji, Segoe UI Emoji, Segoe UI Symbol";
+  
+  }
+
+
+  #yet{
+    padding-left: 180px;
+    /* padding-top: 30px; */
+    font-size: 15px;
+    color: gray;
+    font-family: "system-ui, -apple-system, BlinkMacSystemFont, Segoe UI, Roboto, Helvetica, Arial, sans-serif, Apple Color Emoji, Segoe UI Emoji, Segoe UI Symbol";
+  
+  }
+  #yet a{
+    font-size: 15px;
+    color: green;
+    font-weight: 600;
+    font-family: "system-ui, -apple-system, BlinkMacSystemFont, Segoe UI, Roboto, Helvetica, Arial, sans-serif, Apple Color Emoji, Segoe UI Emoji, Segoe UI Symbol";
+  
+  }
+
+
+  /* signup  page */
+
+  #signpart1{
+    /* border: 2px solid; */
+    width: 500px;
+    margin: auto;
+    height: 350px;
+    margin-top: 20px;
+  }
+  #signpart1 h1{
+    padding-left: 60px;
+    font-size: 30px;
+    font-weight: 500;
+    font-family:"system-ui, -apple-system, BlinkMacSystemFont, Segoe UI, Roboto, Helvetica, Arial, sans-serif, Apple Color Emoji, Segoe UI Emoji, Segoe UI Symbol";
+    font-feature-settings: normal;
+    font-variation-settings: normal;
+  }
+
+
+  #signpart2{
+    /* border :2px solid; */
+    height: 300px;
+    width: 500px;
+    margin: auto;
+    margin-top: 50px;
+   
+    
+  }
+  #signemail a{
+    /* border: 2px solid; */
+    padding-left:170px ;
+    /* margin-top: 50px; */
+    color: green;
+    font-size: 14px;
+    font-weight: 600;
+    font-family: "system-ui, -apple-system, BlinkMacSystemFont, Segoe UI, Roboto, Helvetica, Arial, sans-serif, Apple Color Emoji, Segoe UI Emoji, Segoe UI Symbol";
+  
+  }
+
+  #signagree{
+    padding-left: 80px;
+    /* padding-top: 30px; */
+    font-size: 15px;
+    color: gray;
+    font-family: "system-ui, -apple-system, BlinkMacSystemFont, Segoe UI, Roboto, Helvetica, Arial, sans-serif, Apple Color Emoji, Segoe UI Emoji, Segoe UI Symbol";
+  
+  }
+  #signagree a{
+    font-size: 15px;
+    
+    color: gray;
+    font-family: "system-ui, -apple-system, BlinkMacSystemFont, Segoe UI, Roboto, Helvetica, Arial, sans-serif, Apple Color Emoji, Segoe UI Emoji, Segoe UI Symbol";
+  
+  }
+
+
+  #accountyet{
+    padding-left: 120px;
+    /* padding-top: 30px; */
+    font-size: 15px;
+    color: gray;
+    font-family: "system-ui, -apple-system, BlinkMacSystemFont, Segoe UI, Roboto, Helvetica, Arial, sans-serif, Apple Color Emoji, Segoe UI Emoji, Segoe UI Symbol";
+  
+  }
+  #accountyet a{
+    font-size: 15px;
+    color: green;
+    font-weight: 600;
+    font-family: "system-ui, -apple-system, BlinkMacSystemFont, Segoe UI, Roboto, Helvetica, Arial, sans-serif, Apple Color Emoji, Segoe UI Emoji, Segoe UI Symbol";
+  
+  }
